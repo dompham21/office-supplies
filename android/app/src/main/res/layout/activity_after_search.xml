@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:openDrawer="end">
+    <include
+        layout="@layout/content_after_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_search"
+        android:layout_width="356dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/layout_bottom_filter"
+                android:layout_alignParentTop="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#EFEDED"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/filter_search"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:text="@string/by_category"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rcv_category"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/tv_show_more"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:text="@string/show_more"
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        app:dividerColor="@color/light_gray_border" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/by_price"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+                        <LinearLayout
+                            android:layout_marginTop="10dp"
+                            android:weightSum="2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:divider="@drawable/divider_10"
+                            android:showDividers="middle">
+                            <EditText
+                                android:id="@+id/edt_price_min"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:hint="@string/Min"
+                                android:lines="1"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:background="@drawable/bg_btn_white_border_red"
+                                android:inputType="number"
+                                android:layout_height="wrap_content"/>
+                            <EditText
+                                android:id="@+id/edt_price_max"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:hint="@string/Max"
+                                android:padding="5dp"
+                                android:background="@drawable/bg_btn_white_border_red"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:inputType="number"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
+
+                        <RadioGroup
+                            android:id="@+id/rg_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:divider="@drawable/divider_10"
+                            android:orientation="horizontal"
+                            android:showDividers="middle"
+                            android:weightSum="3">
+
+                            <RadioButton
+                                android:id="@+id/radio_price_100"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_radio_button"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="0-100k" />
+
+                            <RadioButton
+                                android:id="@+id/radio_price_200"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_radio_button"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="100k-200k" />
+
+                            <RadioButton
+                                android:id="@+id/radio_price_300"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_radio_button"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:padding="10dp"
+                                android:text="200k-300k" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        app:dividerColor="@color/light_gray_border" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/other"
+                            android:textColor="@color/black"
+                            android:textSize="15dp" />
+
+                        <RadioGroup
+                            android:id="@+id/rg_other"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:divider="@drawable/divider_10"
+                            android:orientation="horizontal"
+                            android:showDividers="middle"
+                            android:weightSum="4">
+                            <RadioButton
+                                android:id="@+id/radio_price_asc"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_radio_button"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="@string/ascending"
+                                android:textColor="@drawable/radio_text_color" />
+                            <RadioButton
+                                android:id="@+id/radio_price_desc"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_radio_button"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="@string/decrease"
+                                android:textColor="@drawable/radio_text_color" />
+                            <RadioButton
+                                android:id="@+id/radio_sold_best"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_radio_button"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="@string/best_purchase"
+                                android:textColor="@drawable/radio_text_color" />
+                            <RadioButton
+                                android:id="@+id/radio_new"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:background="@drawable/bg_radio_button"
+                                android:button="@null"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="@string/newest"
+                                android:textColor="@drawable/radio_text_color" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+            <RelativeLayout
+                android:id="@+id/layout_bottom_filter"
+                android:background="@color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.divider.MaterialDivider
+                    android:layout_alignParentTop="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    app:dividerColor="@color/light_gray_border"/>
+                <RelativeLayout
+                    android:paddingVertical="5dp"
+                    android:paddingHorizontal="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btn_filter"
+                        android:layout_width="165dp"
+                        android:layout_height="45dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/bg_btn_red"
+                        android:text="@string/apply"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

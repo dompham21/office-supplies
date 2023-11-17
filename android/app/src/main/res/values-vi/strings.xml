@@ -1,0 +1,163 @@
+<resources>
+
+    <string name="app_name">Shop Wise</string>
+    <string name="my_address">Địa chỉ của tôi</string>
+    <string name="cart_empty">Giỏ hàng của bạn trống</string>
+    <string name="cart_empty_description">Mua sắm ngay bây giờ để có được ưu đãi của chúng tôi!</string>
+    <string name="cart_empty_button">Mua sắm ngay!</string>
+
+
+
+    <string name="password">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="let_login">Hãy đăng nhập!</string>
+    <string name="forgot">Quên mật khẩu?</string>
+    <string name="newUser">Bạn chưa có tài khoản? Đăng ký ở đây.</string>
+    <string name="firstName">Họ</string>
+    <string name="fullname">Họ và tên</string>
+
+    <string name="lastName">Tên</string>
+    <string name="emailAddress">Địa chỉ email</string>
+    <string name="terms_conditions">Bằng cách bấm vào Đăng ký, bạn đồng ý với tất cả các Điều khoản và Điều kiện.</string>
+    <string name="signUp">Đăng ký</string>
+    <string name="already_user">Đã có tài khoản? Đăng nhập tại đây.</string>
+    <string name="welcome_back">Chào mừng trở lại</string>
+    <string name="nav_category">Danh mục</string>
+    <string name="see_all">Tất cả</string>
+    <string name="new_products">Sản phẩm mới nhất</string>
+    <string name="most_purchased">Sản phẩm bán chạy nhất</string>
+    <string name="all_products">Tất cả sản phẩm</string>
+    <string name="dummy">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum corper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</string>
+    <string name="see_more">Xem thêm</string>
+    <string name="collapse">Thu gọn</string>
+    <string name="add_cart">Thêm vào Giỏ hàng</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="not_login">Bạn chưa đăng nhập</string>
+    <string name="please_sign_in">Vui lòng đăng nhập để xem giỏ hàng, đánh giá và đơn hàng của bạn!</string>
+    <string name="let_login_button">Đăng nhập ngay!</string>
+    <string name="change_email">Thay đổi email</string>
+    <string name="change_phone">Thay đổi số điện thoại di động</string>
+    <string name="enter_phone_new">Nhập số điện thoại di động mới</string>
+    <string name="enter_phone_number">Nhập số điện thoại</string>
+    <string name="spending_statistics">Thống kê chi tiêu</string>
+    <string name="must_login">Phải đăng nhập</string>
+    <string name="enter_new_name">Hãy nhập tên mới của bạn</string>
+
+    <string name="enter_old_password_field">Vui lòng nhập mật khẩu cũ!</string>
+    <string name="old_password_than_6">Mật khẩu cũ phải lớn hơn 6 ký tự!</string>
+    <string name="enter_new_password_field">Vui lòng nhập mật khẩu mới!</string>
+    <string name="new_password_than_6">Mật khẩu mới phải lớn hơn 6 ký tự!</string>
+    <string name="new_and_old_different_password">Mật khẩu mới phải khác mật khẩu cũ!</string>
+    <string name="confirm_same_new_password">Xác nhận mật khẩu mới phải giống với mật khẩu mới!</string>
+    <string name="confirm_password_than_6">Xác nhận mật khẩu mới phải lớn hơn 6 ký tự!</string>
+    <string name="enter_confirm_password_field">Vui lòng nhập xác nhận mật khẩu!</string>
+
+
+    <string name="remove_product_from_cart">Bạn có chắc chắn muốn xóa sản phẩm này khỏi giỏ hàng không?</string>
+
+    <string name="enter_email_field">Vui lòng nhập email!</string>
+    <string name="enter_password_field">Vui lòng nhập mật khẩu!</string>
+    <string name="password_than_6">Mật khẩu phải lớn hơn 6 ký tự!</string>
+    <string name="enter_name_field">Vui lòng nhập họ và tên!</string>
+    <string name="enter_phone_field">Vui lòng nhập số điện thoại!</string>
+    <string name="invalid_phone">Số điện thoại Việt Nam không hợp lệ!</string>
+
+
+    <string name="total_pay">Tổng trả:</string>
+    <string name="delete">Xoá</string>
+    <string name="divide_text">|</string>
+    <string name="terms_checkout">Nhấp vào \"Đặt hàng\" có nghĩa là bạn đồng ý tuân theo Điều khoản của Shopwise</string>
+    <string name="add_new_address">Thêm Địa Chỉ Mới</string>
+    <string name="contact">Liên hệ</string>
+    <string name="name">Họ và tên</string>
+    <string name="address">Địa chỉ</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="specific_address">Tên đường, toà nhà, số nhà</string>
+    <string name="setting">Cài đặt</string>
+    <string name="hint_province">Chọn tỉnh/thành phố</string>
+    <string name="hint_district">Chọn quận/huyện</string>
+    <string name="hint_ward">Chọn phường/xã</string>
+    <string name="delete_address">Xóa địa chỉ</string>
+    <string name="home">Trang chủ</string>
+    <string name="profile">Thông tin cá nhân</string>
+    <string name="navigation_drawer_open">mở</string>
+    <string name="navigation_drawer_close">đóng</string>
+    <string name="select_language">Lựa chọn ngôn ngữ:</string>
+    <string name="filter_search">Bộ lọc tìm kiếm</string>
+    <string name="by_category">Theo Danh Mục</string>
+    <string name="show_more">Hiển thị nhiều hơn</string>
+    <string name="by_price">Theo Khoảng Giá</string>
+    <string name="Min">Tối thiểu</string>
+    <string name="Max">Tối đa</string>
+    <string name="other">Khác</string>
+    <string name="ascending">Tăng dần</string>
+    <string name="decrease">Giảm dần</string>
+    <string name="best_purchase">Bán chạy</string>
+    <string name="newest">Mới nhất</string>
+    <string name="apply">Áp dụng</string>
+    <string name="enter_new_email">Nhập email mới</string>
+    <string name="enter_email">Nhập email</string>
+    <string name="confirm_your_email">Xác nhận email của bạn</string>
+    <string name="verify_password_text">Để đảm bảo an toàn cho tài khoản, vui lòng xác minh danh tính bằng cách nhập mật khẩu của bạn</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="change">Thay đổi</string>
+    <string name="reset_password">Đặt lại mật khẩu</string>
+    <string name="save">Hoàn tất</string>
+    <string name="year">Năm</string>
+    <string name="month">Tháng</string>
+    <string name="week">Tuần</string>
+    <string name="payment_method">Phương thức thanh toán</string>
+    <string name="cod">Thanh toán khi nhận hàng</string>
+    <string name="order">Đặt hàng</string>
+    <string name="order_success">Đặt hàng thành công</string>
+    <string name="order_view_more_text">Vui lòng chọn Đơn mua để xem thêm thông tin</string>
+    <string name="purchase_order">Đơn mua</string>
+    <string name="category">Thương hiệu:</string>
+    <string name="brand">Danh mục:</string>
+    <string name="description_product">Mô tả sản phẩm</string>
+    <string name="no_review">Chưa có đánh giá</string>
+    <string name="product_review">Đánh giá sản phẩm</string>
+    <string name="edit">Sửa</string>
+    <string name="email">Email</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="review">Đánh giá</string>
+    <string name="next">Tiếp theo</string>
+    <string name="don_t_have_on_account">Don\'t have on Account?</string>
+    <string name="set_default">Đặt làm địa chỉ mặc định</string>
+    <string name="delivery_address">Địa chỉ nhận hàng</string>
+    <string name="total_payment">Tổng số tiền</string>
+    <string name="product">sản phẩm</string>
+    <string name="request_cancel">Yêu cầu huỷ</string>
+    <string name="repurchase">Mua lại</string>
+    <string name="processing">Đang xử lý</string>
+    <string name="enter_code">Nhập mã</string>
+    <string name="enter_code_from_email">Nhập mã 6 ký tự đã gửi về email:</string>
+    <string name="get_new_code">Nhận mã mới</string>
+    <string name="verify">Xác minh</string>
+    <string name="search_here">Nhập tìm kiếm ...</string>
+    <string name="already_account">Đã có tài khoản?</string>
+    <string name="Identity_verification">Để bảo vệ bảo mật tài khoản của bạn, chúng tôi cần xác minh danh tính của bạn</string>
+    <string name="verify_by_email">Xác minh qua Email</string>
+    <string name="let_shopping">Đi shopping!</string>
+    <string name="select_address">Chọn địa chỉ</string>
+    <string name="filter">Lọc</string>
+    <string name="no_products_matched">Không có sản phẩm nào phù hợp</string>
+    <string name="loading">Đang tải ...</string>
+    <string name="all">Tất cả</string>
+    <string name="search_name_product">Tìm kiếm tên sản phẩm ...</string>
+    <string name="history_buy">Xem lịch sử mua hàng</string>
+    <string name="wait_for_confirmation">Chờ xác nhận</string>
+    <string name="waiting_for_grab">Chờ lấy hàng</string>
+    <string name="delivering">Đang giao</string>
+    <string name="my_review">Đánh giá của tôi</string>
+    <string name="setting_account">Thiết lập tài khoản</string>
+    <string name="report">Thống kê tiêu dùng</string>
+    <string name="terms_shopwise">Điều khoản Shopwise</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="promotion_products">Sản phẩm khuyến mãi</string>
+
+
+</resources>
