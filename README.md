@@ -8,7 +8,7 @@
 
 
 ## Description
-This is a full-stack web and mobile application for managing office supplies shop and facilitating online sales. Technical: ReactJS, Next.js, Spring Boot, Android Java, MySQL, Ant design, Tailwind CSS, React-Query.
+This is a full-stack web and mobile application for managing office supplies shop and facilitating online sales. Technical: ReactJS, Next.js, Spring Boot, Android Java, MS SQL, Ant design, Tailwind CSS, React-Query.
 
 ### A typical top-level directory layout
 
